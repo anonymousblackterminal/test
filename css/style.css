@@ -1,0 +1,28 @@
+body {
+    background-color: aliceblue;
+}
+#card {
+    background-color: cornflowerblue;
+    width: 25%;
+    height: 75%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.card-top {
+    height: 10%;
+    background-color: cornsilk;
+}
+.card-body {
+    height: 80%;
+}
+#butoon {
+    height: 20px;
+    width: 40px;
+}
+@media (max-width: 550px) {
+    #card {
+        display: none;
+    }
+}
