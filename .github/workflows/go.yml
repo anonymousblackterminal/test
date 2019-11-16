@@ -24,4 +24,4 @@ jobs:
         fi
 
     - name: Build
-      run: echo $GOPATH
+      run: go env
